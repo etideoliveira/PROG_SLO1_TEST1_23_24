@@ -5,17 +5,16 @@ Date:	02.11.2023
 Modification: 29.11.2023
 correction du code
 */
-
+  
 //include//
 #include "testQ4.h"
 #include <stdint.h> //type normalise
-#include <stdio.h> //entre sortie
 
 //Programme principale//
 void main()
 {
 	int16_t InfoSigne;
-	int8_t ValeurTemp;
+	float  ValeurTemp;
 	int8_t InfoValeurEntier;
 	float InfoValeurDemi;
 	

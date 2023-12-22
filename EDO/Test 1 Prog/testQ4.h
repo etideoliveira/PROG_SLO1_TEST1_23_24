@@ -10,8 +10,8 @@ correction du code
 #define TESTQ4_H
 
 //librairies standart//
-
+#include <stdint.h> //type normalise
 //constante numerique//
-const valbrutcptDS1820 = 0xFF33;
+extern const int16_t valbrutcptDS1820 = 0xFF33;
 #endif // !TESTQ4_H
 
